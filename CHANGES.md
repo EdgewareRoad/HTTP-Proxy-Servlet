@@ -1,5 +1,12 @@
+# Version 1.12 (unreleased)
 
-# Version 1.11 (unreleased)
+# Version 1.11 2019-01-12
+
+\#155: Add OSGI manifiest headers.
+Thanks Abhishek Jain.
+
+\#153: New settings: http.maxConnections and http.connectionrequest.timeout
+Thanks Gotzon Illarramendi.
 
 \#149: Introduced overrideable method rewritePathInfoFromRequest.
 Thanks Oren Efraty.
