@@ -383,7 +383,7 @@ public class ProxyServlet extends HttpServlet {
       log("proxy " + servletRequest.getMethod() + " uri: " + servletRequest.getRequestURI() + " -- " +
               proxyRequest.getRequestLine().getUri());
     }
-    return proxyClient.execute(getTargetHost(servletRequest), proxyRequest);
+    return getProxyClient().execute(getTargetHost(servletRequest), proxyRequest);
   }
 
   protected HttpRequest newProxyRequestWithEntity(String method, String proxyRequestUri,
